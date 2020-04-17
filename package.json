@@ -11,11 +11,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run build && serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "install": "npm install"
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": "10.19.0"
