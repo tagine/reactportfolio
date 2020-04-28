@@ -1,20 +1,21 @@
 import React from 'react';
 import '../App.css';
-import { Button, Checkbox, Form } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 
 export default function Contactform() {
   return (
     <Form>
       <Form.Field>
-        <label>First Name</label>
-        <input placeholder='First Name' />
+        <label>Name</label>
+        <input placeholder="Name" />
       </Form.Field>
       <Form.Field>
-        <label>Last Name</label>
-        <input placeholder='Last Name' />
+        <label>E-mail</label>
+        <input placeholder="E-mail" />
       </Form.Field>
       <Form.Field>
-        <Checkbox label='I agree to the Terms and Conditions' />
+        <label>Message</label>
+        <input placeholder="How can I help?" />
       </Form.Field>
       <Button type='submit'>Submit</Button>
     </Form>
