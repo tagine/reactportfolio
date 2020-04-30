@@ -6,7 +6,7 @@ import bthere from "../img/bthere.png"
 import { BrowserRouter } from 'react-router-dom';
 
 const Portfolio = () => (
-    <Container>
+    <Container color="red">
         <BrowserRouter>
             <Card.Group itemsPerRow={3}>
                 <Card>
@@ -52,7 +52,7 @@ const Portfolio = () => (
 
                         <a href="https://github.com/tagine/space"><Icon name='linkify' />Github Repo</a>
                         <br />
-                        <a href="https://radiant-river-70166.herokuapp.com/"><Icon name='linkify' />Deployed app</a>
+                        <a href="https://fierce-temple-54990.herokuapp.com/"><Icon name='linkify' />Deployed app</a>
                         <br />
                         <br />
                     </Card.Content>
