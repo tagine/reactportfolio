@@ -1,8 +1,8 @@
 import React from "react";
-import layers from "../img/IMG_1082.jpeg";
+import layers from "../img/steel.jpeg";
 import cogwheel from "../img/cog.jpg";
 import pen from "../img/pen.png";
-import browser from "../img/IMG_8785.jpg";
+import browser from "../img/sunrise.jpeg";
 import myImage from "../img/ranaheadshot.jpg";
 // import PropTypes from "prop-types";
 // import AnimatedTypingComponent from "./components/AnimatedTypingComponent";
@@ -13,7 +13,7 @@ export default class About extends React.Component {
 			<div
 				id="about-container"
 				className="content-containers container text-center mt-5">
-					{/* <AnimatedTypingComponent></AnimatedTypingComponent> */}
+				{/* <AnimatedTypingComponent></AnimatedTypingComponent> */}
 				<h1 id="about" className={this.props.bounceLeft}>
 					About
 				</h1>
@@ -22,29 +22,29 @@ export default class About extends React.Component {
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
-						<img src={layers} alt=""/>
-						<h4>Responsive</h4>
+						<img src={layers} alt="" />
+						<h4></h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
-						<img src={pen} alt=""/>
-						<h4>Design</h4>
+						<img src={pen} alt="" />
+						<h4></h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
 						}>
-						<img src={cogwheel} alt=""/>
-						<h4>Performance</h4>
+						<img src={cogwheel} alt="" />
+						<h4></h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
 						}>
-						<img src={browser} alt=""/>
-						<h4>Agile</h4>
+						<img src={browser} alt="" />
+						<h4></h4>
 					</div>
 				</div>
 
@@ -61,109 +61,33 @@ export default class About extends React.Component {
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
-							I love to transform ideas into reality using code. I
-							am passionate about using Javascript and animations
-							to create awesome user experiences.
+							I’m a Web Developer with interests in well-designed
+							user-centered projects. I have a passion for accessibility
+							and would love to work on more projects that include it as a
+							core tenet. I built my first website when I was ten years old,
+							it was for a local band. Finding out about the right-click and
+							view source feature in Mozilla Firefox changed my life back
+							then. I still find myself right-clicking these days, but mostly
+							to inspect different elements. My interest in actively learning
+							about Web Development was renewed with my fellowship with Interactive
+							Mechanics '17-'18.
+							
+							As a former journalist, I have a background in content strategy. As
+							someone who has been running their own business and contracting for
+							years, I am now looking for a fulltime web development position. I am
+							also interested in contributing to more open source projects. My only
+							contribution so far is for Peregrine, a Django-based CMS that uses Wagtail
+							as a framework. I added a minor contribution of a footer to the project.
+							
+							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
+							both willing to relocate for the right opportunity.
 						</p>
 					</div>
-					<div
-						className={
-							"col-12 col-sm-12 col-md-12 col-lg-6 " +
-							this.props.tada
-						}>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								HTML5
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								CSS3
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-90-bar"
-								role="progressbar"
-								style={{ width: 90 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Javascript
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								PHP
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								ReactJS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								NodeJs
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								SASS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								VanillaJS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								JQuery
-							</div>
+					<div>
+						
 						</div>
 					</div>
 				</div>
-			</div>
 		);
 	}
 }
