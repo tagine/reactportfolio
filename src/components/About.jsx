@@ -1,56 +1,26 @@
 import React from "react";
-import layers from "../img/steel.jpeg";
-import cogwheel from "../img/cog.jpg";
-import pen from "../img/pen.png";
+// import layers from "../img/steel.jpeg";
+// import cogwheel from "../img/cog.jpg";
+// import pen from "../img/pen.png";
 import browser from "../img/sunrise.jpeg";
 import myImage from "../img/ranaheadshot.jpg";
+import { Container, Header, Image } from 'semantic-ui-react'
 // import PropTypes from "prop-types";
 // import AnimatedTypingComponent from "./components/AnimatedTypingComponent";
 
 export default class About extends React.Component {
 	render() {
 		return (
-			<div
-				id="about-container"
-				className="content-containers container text-center mt-5">
-				{/* <AnimatedTypingComponent></AnimatedTypingComponent> */}
-				<h1 id="about" className={this.props.bounceLeft}>
+			<Container
+				id="about-container" textAlign="center">
+				{/* <AnimatedTypingComponent/> */}
+				<Header as="h1" id="about" className={this.props.bounceLeft}>
 					About
-				</h1>
-				<div className="row mt-5">
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={layers} alt="" />
-						<h4></h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={pen} alt="" />
-						<h4></h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={cogwheel} alt="" />
-						<h4></h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={browser} alt="" />
-						<h4></h4>
-					</div>
-				</div>
-
-				<div className="row" style={{ marginTop: 7 + "rem" }}>
-					<div className="col-12 col-lg-6 hidden">
-						<img
+				</Header>
+				<Container className="row" style={{ marginTop: 7 + "rem" }}>
+					<Container className="col-12 col-lg-6 hidden">
+						<Image
+							size="medium" centered
 							className={"img-fluid " + this.props.fadeIn}
 							src={myImage}
 							alt=""
@@ -82,12 +52,43 @@ export default class About extends React.Component {
 							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
 							both willing to relocate for the right opportunity.
 						</p>
-					</div>
-					<div>
-						
-						</div>
-					</div>
-				</div>
+					</Container>
+					<Container>
+						</Container>
+					</Container>
+				<Container className="row mt-5">
+					<Container
+						className={
+							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
+						}>
+						{/* <Image src={layers} alt="" /> */}
+						<Header as="h4"></Header>
+					</Container>
+					<Container
+						className={
+							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
+						}>
+						{/* <Image src={pen} alt="" /> */}
+						<Header as="h4"></Header>
+					</Container>
+					<Container
+						className={
+							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
+						}>
+						{/* <Image src={cogwheel} alt="" /> */}
+						<Header as="h4"></Header>
+					</Container>
+					<Container
+						className={
+							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
+						}>
+						<Image src={browser} alt="" />
+						<Header as="h4"></Header>
+					</Container>
+				</Container>
+
+				
+				</Container>
 		);
 	}
 }
