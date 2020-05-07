@@ -4,7 +4,7 @@ import React from "react";
 // import pen from "../img/pen.png";
 import browser from "../img/sunrise.jpeg";
 import myImage from "../img/ranaheadshot.jpg";
-import { Container, Header, Image } from 'semantic-ui-react'
+import { Container, Header, Image, Segment } from 'semantic-ui-react'
 // import PropTypes from "prop-types";
 // import AnimatedTypingComponent from "./components/AnimatedTypingComponent";
 
@@ -17,11 +17,11 @@ export default class About extends React.Component {
 				<Header as="h1" id="about" className={this.props.bounceLeft}>
 					About
 				</Header>
-				<Container className="row" style={{ marginTop: 7 + "rem" }}>
-					<Container className="col-12 col-lg-6 hidden">
+				<Container>
+					<Container>
 						<Image
 							size="medium" centered
-							className={"img-fluid " + this.props.fadeIn}
+							// className={"img-fluid " + this.props.fadeIn}
 							src={myImage}
 							alt=""
 							style={{
@@ -30,7 +30,7 @@ export default class About extends React.Component {
 								width: 250 + "px"
 							}}
 						/>
-						<p className={"mytext pt-3 " + this.props.fadeIn}>
+						<Segment><p>
 							I’m a Web Developer with interests in well-designed
 							user-centered projects. I have a passion for accessibility
 							and would love to work on more projects that include it as a
@@ -40,8 +40,8 @@ export default class About extends React.Component {
 							then. I still find myself right-clicking these days, but mostly
 							to inspect different elements. My interest in actively learning
 							about Web Development was renewed with my fellowship with Interactive
-							Mechanics '17-'18.
-							
+							Mechanics '17-'18.</p>
+							<p>
 							As a former journalist, I have a background in content strategy. As
 							someone who has been running their own business and contracting for
 							years, I am now looking for a fulltime web development position. I am
@@ -52,42 +52,11 @@ export default class About extends React.Component {
 							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
 							both willing to relocate for the right opportunity.
 						</p>
+						</Segment>
 					</Container>
 					<Container>
 						</Container>
 					</Container>
-				<Container className="row mt-5">
-					<Container
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						{/* <Image src={layers} alt="" /> */}
-						<Header as="h4"></Header>
-					</Container>
-					<Container
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						{/* <Image src={pen} alt="" /> */}
-						<Header as="h4"></Header>
-					</Container>
-					<Container
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						{/* <Image src={cogwheel} alt="" /> */}
-						<Header as="h4"></Header>
-					</Container>
-					<Container
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<Image src={browser} alt="" />
-						<Header as="h4"></Header>
-					</Container>
-				</Container>
-
-				
 				</Container>
 		);
 	}

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button, Form } from 'semantic-ui-react'
+import { Button, Form, Segment } from 'semantic-ui-react'
 // import { Mailer } from 'nodemailer-react';
 
 export default function Contactform() {
@@ -25,5 +25,10 @@ export default function Contactform() {
       </Form.Field>
       <Button type='submit'>Submit</Button>
     </Form>
+
+    // <Segment>
+    //   <a href="https://www.linkedin.com/in/ranafayez/">LinkedIn</a>
+    // Github https://github.com/tagine
+    // </Segment>
   )
 }

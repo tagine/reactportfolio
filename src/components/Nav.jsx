@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import home from "../img/home.png"
 
 export default class MenuExampleStackable extends Component {
   state = {}
@@ -17,7 +18,7 @@ export default class MenuExampleStackable extends Component {
         name="about"
         active={activeItem === 'about'}
         onClick={this.handleItemClick}>
-          <img src='https://react.semantic-ui.com/logo.png' alt="logo" />
+          <img src={home} alt="logo" />
         </Menu.Item>
 
         <Menu.Item
