@@ -18,7 +18,7 @@ export default class About extends React.Component {
 					About
 				</Header>
 				<Container>
-					<Container>
+					<Container className="col-12 col-lg-6 hidden">
 						<Image
 							size="medium" centered
 							// className={"img-fluid " + this.props.fadeIn}
