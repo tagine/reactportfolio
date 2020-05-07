@@ -1,8 +1,5 @@
 import React from "react";
-// import layers from "../img/steel.jpeg";
-// import cogwheel from "../img/cog.jpg";
-// import pen from "../img/pen.png";
-import browser from "../img/sunrise.jpeg";
+// import browser from "../img/sunrise.jpeg";
 import myImage from "../img/ranaheadshot.jpg";
 import { Container, Header, Image, Segment } from 'semantic-ui-react'
 // import PropTypes from "prop-types";
