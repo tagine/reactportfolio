@@ -30,22 +30,22 @@ export default class About extends React.Component {
 						<Segment><p>
 							
 						    Full Stack Web Developer with a background in content strategy
-							and education with a lifelong dedication to learning.  Effective
-							at combining creativity and problem solving to develop user-friendly
-							applications. Known among staff for strong wit and attention to detail
-							no matter the complexity of the project with interests in user-centered
-							applications, problem solving, and contributing to open-source software.
+							and education with a lifelong dedication to learning. 
+							Effective at combining creativity and problem solving to develop
+							user-friendly applications. Known among staff for strong wit and
+							attention to detail no matter the complexity of the project with
+							interests in user-centered applications, problem solving, and
+							contributing to open-source software.
 						
-							My interest in actively learning
-							about Web Development was renewed with my fellowship with Interactive
-							Mechanics '17-'18.</p>
+							My interest in actively learning about Web Development was renewed
+							with my fellowship with Interactive Mechanics '17-'18.</p>
 							<p>
 							As a former journalist, I have a background in content strategy. As
 							someone who has been running their own business and contracting for
 							years, I am now looking for a fulltime web development position. I am
-							also interested in contributing to more open source projects. The first of
-							many contributions to come was for Peregrine, a Django-based CMS that is based on
-							the Wagtail CMS. I added a minor contribution of a footer to the project.
+							also interested in contributing to more open source projects. The first
+							of many contributions to come was for Peregrine, a Django-based CMS that
+							is based on the Wagtail CMS.
 							
 							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
 							both willing to relocate for the right opportunity.
