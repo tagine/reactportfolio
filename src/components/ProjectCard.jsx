@@ -16,9 +16,9 @@ function ProjectCard (props) {
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
-      <a href={props.applink}><Icon name='linkify' /> Deployed App </a>
+      <a href={props.applink}><Icon name='linkify' /> Github Repo </a>
       <br/>
-      <a href={props.github}><Icon name='linkify' /> Github Repo </a>
+      <a href={props.github}><Icon name='linkify' /> Deployed App </a>
     </Card.Content>
   </Card>
     );
