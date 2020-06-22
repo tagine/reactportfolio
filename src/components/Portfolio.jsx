@@ -18,8 +18,8 @@ const Portfolio = (props) => (
                     title="Corona Connection"
                     tech="React, News API, Express, Passport JS, Socket IO, and Semantic UI"
                     description="During a time of social distancing, our communities need to be more connected than ever, especially those who are not as tech savvy as we are. The idea is to make the app accessible and that approach carries over in our development process as well as our design process. Users will be able to share critical information with their neighbors as well as pull the latest news articles relevant to Coronavirus developments."
-                    applink="https://github.com/SeanCdeveloper/CoronaVirusConnection/"
-                    github="https://github.com/SeanCdeveloper/CoronaVirusConnection/" />
+                    applink="https://coronaconnect.herokuapp.com/"
+                    github="https://github.com/SeanCdeveloper/CoronaVirusConnection"/>
                 <ProjectCard
                     screenshot={bthere}
                     title="B. There."
@@ -32,8 +32,8 @@ const Portfolio = (props) => (
                     title="Pooch Quest"
                     tech="HTML, CSS, Materialize, Javascript, jQuery, TheDog API, and PetFinder API."
                     description="Pooch Quest is an application that assists the user in finding their perfect dog. As soon as the user searches, Pooch Quest gives relevant information about their desired breed along with adoptable dogs in their area."
-                    applink="https://alyssacucunato.com/pooch-quest/"
-                    github="https://github.com/acucunato/pooch-quest/"/>
+                    applink="https://acucunato.github.io/pooch-quest/"
+                    github="https://github.com/tagine/pooch-quest"/>
                 <ProjectCard
                     screenshot={employeedirectory}
                     title="Employee Directory"
@@ -53,7 +53,7 @@ const Portfolio = (props) => (
                     title="NY Times Seach Engine"
                     tech="HTML, CSS, Ajax, and Javascript."
                     description="This is a search engine created exclusively for pulling articles from the New York Times. Designed in CSS."
-                    // applink=""
+                    applink="https://tagine.github.io/searchengine/"
                     github="https://github.com/tagine/searchengine"/>
             </Card.Group>
         {/* </BrowserRouter> */}
