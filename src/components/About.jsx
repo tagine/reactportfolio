@@ -28,14 +28,15 @@ export default class About extends React.Component {
 							}}
 						/>
 						<Segment><p>
-							I’m a Web Developer with interests in well-designed
-							user-centered projects. I have a passion for accessibility
-							and would love to work on more projects that include it as a
-							core tenet. I built my first website when I was ten years old,
-							it was for a local band. Finding out about the right-click and
-							view source feature in Mozilla Firefox changed my life back
-							then. I still find myself right-clicking these days, but mostly
-							to inspect different elements. My interest in actively learning
+							
+						    Full Stack Web Developer with a background in content strategy
+							and education with a lifelong dedication to learning.  Effective
+							at combining creativity and problem solving to develop user-friendly
+							applications. Known among staff for strong wit and attention to detail
+							no matter the complexity of the project with interests in user-centered
+							applications, problem solving, and contributing to open-source software.
+						
+							My interest in actively learning
 							about Web Development was renewed with my fellowship with Interactive
 							Mechanics '17-'18.</p>
 							<p>
