@@ -6,6 +6,9 @@ import budgettracker from "../img/budgettracker.png"
 import nytsearch from "../img/nytsearch.png"
 import bthere from "../img/bthere.png"
 import employeedirectory from "../img/employeedirectory.png"
+import stars from "../img/stars.png"
+import bulletin from "../img/bulletin.png"
+import artbridges from "../img/artbridges.png"
 import { BrowserRouter } from 'react-router-dom';
 import ProjectCard from './ProjectCard'
 
@@ -13,6 +16,20 @@ const Portfolio = (props) => (
     <Container>
         {/* // <BrowserRouter> */}
             <Card.Group itemsPerRow={3}>
+                <ProjectCard
+                    screenshot={stars}
+                    title="STARS"
+                    tech="Django, HTML, CSS"
+                    description="STARS is a sustainabilty rating application for higher education institutions."
+                    applink="https://reports.aashe.org/institutions/arizona-state-university-az/report/2020-03-05/"
+                    github=""/>
+                <ProjectCard
+                    screenshot={bulletin}
+                    title="Bulletin"
+                    tech="Django, HTML, CSS."
+                    description="Bulletin is a newsletter application for AASHE member organizations."
+                    applink="https://bulletin.aashe.org"
+                    github=""/>
                 <ProjectCard
                     screenshot={coronaconnection}
                     title="Corona Connection"
@@ -41,6 +58,12 @@ const Portfolio = (props) => (
                     description="Employee Directory is a React app that sorts through employee salary data."
                     applink="https://arcane-temple-83433.herokuapp.com/"
                     github="https://github.com/tagine/employeedirectory2"/>
+                <ProjectCard
+                    screenshot={artbridges}
+                    title="Art Bridges Foundation"
+                    tech="Content strategy, content modeling, and database design."
+                    description="The Art Bridges Foundation is an art lending arts institution that needed a new website that better presents the services they offer. I was contracted by BlueCadet, a design agency, to work on the project's content strategy."
+                    applink="http://artbridgesfoundation.org"/>
                 <ProjectCard
                     screenshot={budgettracker}
                     title="Budget Tracker"
