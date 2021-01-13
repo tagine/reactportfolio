@@ -1,6 +1,6 @@
 import React from "react";
 // import browser from "../img/sunrise.jpeg";
-import myImage from "../img/ranaheadshot.jpg";
+import myImage from "../img/homelogo.png";
 import { Container, Header, Image, Segment } from 'semantic-ui-react'
 // import PropTypes from "prop-types";
 // import AnimatedTypingComponent from "./components/AnimatedTypingComponent";
@@ -28,15 +28,15 @@ export default class About extends React.Component {
 							}}
 						/>
 						<Segment><p>
-							
+
 						    Full Stack Web Developer with a background in content strategy
-							and education with a lifelong dedication to learning. 
+							and education with a lifelong dedication to learning.
 							Effective at combining creativity and problem solving to develop
 							user-friendly applications. Known among staff for strong wit and
 							attention to detail no matter the complexity of the project with
 							interests in user-centered applications, problem solving, and
 							contributing to open-source software.
-						
+
 							My interest in actively learning about Web Development was renewed
 							with my fellowship with Interactive Mechanics '17-'18.</p>
 							<p>
@@ -46,7 +46,7 @@ export default class About extends React.Component {
 							also interested in contributing to more open source projects. The first
 							of many contributions to come was for Peregrine, a Django-based CMS that
 							is based on the Wagtail CMS.
-							
+
 							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
 							both willing to relocate for the right opportunity.
 						</p>
