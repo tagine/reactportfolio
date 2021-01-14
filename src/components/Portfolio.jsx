@@ -52,18 +52,18 @@ const Portfolio = (props) => (
                     applink="https://acucunato.github.io/pooch-quest/"
                     github="https://github.com/tagine/pooch-quest"/>
                 <ProjectCard
+                    screenshot={artbridges}
+                    title="Art Bridges Foundation"
+                    tech="Content strategy, content modeling, and database taxonomy."
+                    description="The Art Bridges Foundation is an art lending arts institution that needed a new website that better presents the services they offer. I was contracted by BlueCadet, a design agency, to work on the project's content strategy."
+                    applink="http://artbridgesfoundation.org"/>
+                <ProjectCard
                     screenshot={employeedirectory}
                     title="Employee Directory"
                     tech="React, Semantic UI, and Express."
                     description="Employee Directory is a React app that sorts through employee salary data."
                     applink="https://arcane-temple-83433.herokuapp.com/"
                     github="https://github.com/tagine/employeedirectory2"/>
-                <ProjectCard
-                    screenshot={artbridges}
-                    title="Art Bridges Foundation"
-                    tech="Content strategy, content modeling, and database design."
-                    description="The Art Bridges Foundation is an art lending arts institution that needed a new website that better presents the services they offer. I was contracted by BlueCadet, a design agency, to work on the project's content strategy."
-                    applink="http://artbridgesfoundation.org"/>
                 <ProjectCard
                     screenshot={budgettracker}
                     title="Budget Tracker"
