@@ -12,7 +12,7 @@ export default class MenuExampleStackable extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu stackable>
+      <Menu inverted stackable>
         <Menu.Item
         as={Link} to="/"
         name="about"
