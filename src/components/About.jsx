@@ -29,26 +29,23 @@ export default class About extends React.Component {
 						/>
 						<Segment><p>
 
-						    Full Stack Web Developer with a background in content strategy
-							and education with a lifelong dedication to learning.
-							Effective at combining creativity and problem solving to develop
-							user-friendly applications. Known among staff for strong wit and
-							attention to detail no matter the complexity of the project with
-							interests in user-centered applications, problem solving, and
-							contributing to open-source software.
-
-							My interest in actively learning about Web Development was renewed
-							with my fellowship with Interactive Mechanics '17-'18.</p>
+						 Full-stack web developer with experience in Django, React, HTML, CSS, Node, REST APIs,
+						 Express, jQuery, JavaScript, Git, MySQL, PostgreSQL, Github, and most recently Google
+						 Cloud Platform. With a background in content strategy and design, I like to keep users
+						 in mind when developing new features or debugging. I’m comfortable with Object Oriented
+						 Programming.
+						 </p>
 							<p>
-							As a former journalist, I have a background in content strategy. As
-							someone who has been running their own business and contracting for
-							years, I am now looking for a fulltime web development position. I am
-							also interested in contributing to more open source projects. The first
+							I’m currently working at a small sustainability non-profit on a dev team of two, where I
+							work in both: web development and dev-ops. In early 2020, I graduated with a full-stack
+							web development certificate from an immersive coding bootcamp at University of
+							Pennsylvania, which had a special focus on the MERN stack. In 2018, I was in a four-person
+							cohort of web development fellows at design agency Interactive Mechanics.
+							</p>
+ 							<p>
+							I am also interested in contributing to more open source projects. The first
 							of many contributions to come was for Peregrine, a Django-based CMS that
 							is based on the Wagtail CMS.
-
-							I live in Philadelphia, with my pet-turtle, Murphy Brown, Jr. But we’re
-							both willing to relocate for the right opportunity.
 						</p>
 						</Segment>
 					</Container>
